@@ -1,0 +1,109 @@
+[
+    {
+        "name": "Флюїд для обличчя для сухої шкіри",
+        "price": 630,
+        "img": "images/img-catal-1.png",
+        "id": 1,
+        "product_type": "крем"
+
+    },
+    {
+        "name": "Антиоксидантний крем для обличчя",
+        "price": 850,
+        "img": "images/img-catal-2.png",
+        "id": 2,
+        "product_type": "крем"
+    },
+    {
+        "name": "Гель для вмивання для проблемної шкіри",
+        "price":590 ,
+        "img": "images/img-catal-3.png",
+        "id": 3,
+        "product_type": "гель"
+    },
+    {
+        "name": "Зволожуюча сироватка для нормальної шкіри",
+        "price": 480,
+        "img": "images/img-catal-4.png",
+        "id": 4,
+        "product_type": "сироватка"
+    },
+    {
+        "name": "Зволожуючий крем для сухої шкіри",
+        "price": 830,
+        "img": "images/img-catal-5.png",
+        "id": 5,
+        "product_type": "крем"
+    },
+    {
+        "name": "Тонік для обличчя для нормальної шкіри",
+        "price": 450,
+        "img": "images/img-catal-6.png",
+        "id": 6,
+        "product_type": "тонік"
+    },
+    {
+        "name": "Пінка для очищення шкіри обличчя",
+        "price": 560,
+        "img": "images/img-catal-7.png",
+        "id": 7,
+        "product_type": "пінка"
+    },
+    {
+        "name": "Набір денний та нічний крем",
+        "price": 1230,
+        "img": "images/img-catal-8.png",
+        "id": 8,
+        "product_type": "крем"
+    },
+    {
+        "name": "Матуючий денний крем для жиної шкіри",
+        "price": 680,
+        "img": "images/img-catal-9.png",
+        "id": 9,
+        "product_type": "крем"
+    },
+    {
+        "name": "Нічний антивіковий крем для сухої шкіри",
+        "price": 860,
+        "img": "images/img-catal-10.png",
+        "id": 10,
+        "product_type": "крем"
+    },
+    {
+        "name": "Гель для зняття макіяжу",
+        "price": 730,
+        "img": "images/img-catal-11.png",
+        "id": 11,
+        "product_type": "гель"
+    },
+    {
+        "name": "Антивікова сироватка для зони навколо очей",
+        "price": 900,
+        "img": "images/img-catal-12.png",
+        "id": 12,
+        "product_type": "сироватка"
+    },
+    {
+        "name": "Лосьон для нормальної та комбінованої шкіри",
+        "price": 1050,
+        "img": "images/img-catal-13.png",
+        "id": 13,
+        "product_type": "лосьон"
+    },
+    {
+        "name": "Скраб для чутливої шкіри",
+        "price": 890,
+        "img": "images/img-catal-14.png",
+        "id": 14,
+        "product_type": "скраб"
+    },
+    {
+        "name": "Гель для глубокого очищення шкіри обличчя",
+        "price": 890,
+        "img": "images/img-catal-15.png",
+        "id": 15,
+        "product_type": "гель"
+    }
+
+]

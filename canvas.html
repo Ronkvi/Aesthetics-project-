@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/homepage.css" type="text/css" />
+    <link rel="stylesheet" href="css/fonts.css" type="text/css" />
+    <script type="text/javascript" src="js/main.js"></script>
+    <title>Homepage</title>
+</head>
+
+<body style="margin: 0;">
+
+    <canvas id="canvas" style="display: block;">Your brouser
+    </canvas>
+
+    <script>
+        var
+            canv = document.getElementById('canvas'),
+            ctx = canv.getContext('2d');
+
+        canv.width = window.innerWidth;
+        canv.height = window.innerHeight;
+
+
+        // code
+        ctx.fillStyle = 'magenta';
+        ctx.filleStyle = 'red';
+        ctx.lineWidth = 5;
+
+        ctx.scale(2, 2);
+
+        let x = 50;
+
+        ctx.beginPath();
+        ctx.moveTo(x, 50);
+        ctx.lineTo(25, 100);
+        ctx.lineTo(75, 100);
+        ctx.closePath();
+        ctx.fill();
+
+
+        setInterval(function () {
+            ctx.beginPath();
+            ctx.moveTo(x++, 50);
+            ctx.lineTo(x++, 100);
+            ctx.lineTo(x++, 100);
+            ctx.closePath();
+            ctx.fill();
+        }, 10);
+
+
+    </script>
+
+
+</body>
+
+</html>
